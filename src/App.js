@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+//import Navbar from './components/Navbar/Navbar';
+import Contador from './components/Contador/Contador';
+
 
 function App() {
   return (
     <div className="App">
+
+      <Contador/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
